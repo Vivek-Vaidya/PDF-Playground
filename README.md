@@ -7,26 +7,30 @@
 
 ## Features
 
-### 1. Merge PDFs
-- **Drag & Drop**: Upload multiple PDF files easily.
-- **Reorder**: Arrange files in your desired order.
-- **Merge**: Combine multiple PDFs into a single document instantly.
+### Core Tools
+- **Merge PDFs**: Combine multiple PDFs into a single document.
+- **Split PDF**: Extract specific pages or split by range.
+- **Convert**: 
+  - Images to PDF
+  - PDF to Images
 
-### 2. Split PDF
-- **Range Split**: Extract a specific range of pages (e.g., 1-5).
-- **Extract Pages**: Extract individual pages (e.g., 1, 3, 5).
-- **Preview**: View file details before splitting.
+### Advanced Tools (New)
+- **Rotate**: Rotate pages by 90/180/270 degrees.
+- **Protect**: Encrypt PDF with a password.
+- **Watermark**: Add custom text watermarks with control over opacity, rotation, and color.
+- **Organize**: Visual grid to reorder or remove pages within a PDF.
 
-### 3. Convert
-- **Images to PDF**: Convert PNG/JPG images into a single PDF file.
-- **PDF to Images**: Convert PDF pages into high-quality PNG images.
+### UI/UX
+- **Dark Mode**: Toggle between light and dark themes.
+- **Responsive Design**: Works on desktop and mobile.
+- **Animations**: Smooth page transitions and interactions.
 
 ## Technical Details
 
 - **Framework**: React + Vite
 - **PDF Processing**: `pdf-lib` for manipulation, `pdfjs-dist` for rendering.
-- **Styling**: Vanilla CSS with modern, responsive design.
-- **Privacy**: 100% Client-Side processing.
+- **Styling**: Vanilla CSS with CSS variables.
+- **Animations**: `framer-motion`.
 
 ## Getting Started
 
